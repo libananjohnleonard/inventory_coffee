@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="coffee-gradient" x1="24" x2="24" y1="4" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A67C52" />
+      <stop offset="1" stop-color="#8B6A47" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#coffee-gradient)" />
+  <path
+    stroke="#fff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2.75"
+    d="M15 20H30V26C30 29.866 26.866 33 23 33H22C18.134 33 15 29.866 15 26V20Z"
+  />
+  <path
+    stroke="#fff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2.75"
+    d="M30 22H32.5C34.433 22 36 23.567 36 25.5C36 27.433 34.433 29 32.5 29H30"
+  />
+  <path stroke="#fff" stroke-linecap="round" stroke-width="2.75" d="M19 15C17.8 16.2 17.8 17.8 19 19" />
+  <path stroke="#fff" stroke-linecap="round" stroke-width="2.75" d="M24 13.5C22.8 14.7 22.8 16.5 24 17.7" />
+  <path stroke="#fff" stroke-linecap="round" stroke-width="2.75" d="M29 15C27.8 16.2 27.8 17.8 29 19" />
+  <path stroke="#fff" stroke-linecap="round" stroke-width="2.75" d="M14 36H31" />
+</svg>
