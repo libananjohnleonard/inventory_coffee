@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "node server/index.js",
     "dev": "node scripts/dev-all.cjs",
     "server": "node server/index.js",
     "server:bg": "node scripts/server-bg.cjs start",
