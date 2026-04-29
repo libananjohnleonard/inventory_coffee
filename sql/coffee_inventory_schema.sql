@@ -36,9 +36,9 @@ CREATE TABLE IF NOT EXISTS coffee_inventory.products (
 );
 
 -- Create indexes for better query performance
-CREATE INDEX idx_products_category ON coffee_inventory.products(category);
-CREATE INDEX idx_products_created_at ON coffee_inventory.products(created_at DESC);
-CREATE INDEX idx_admin_email ON coffee_inventory.admin_users(email);
+CREATE INDEX IF NOT EXISTS idx_products_category ON coffee_inventory.products(category);
+CREATE INDEX IF NOT EXISTS idx_products_created_at ON coffee_inventory.products(created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_admin_email ON coffee_inventory.admin_users(email);
 
 -- Default admin user (password: 1234)
 INSERT INTO coffee_inventory.admin_users (full_name, email, password_hash, role, workspace_name)

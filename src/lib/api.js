@@ -3,7 +3,7 @@ const isLocalBrowser =
   typeof window !== 'undefined' && ['localhost', '127.0.0.1'].includes(window.location.hostname)
 
 const API_BASE_URL = (
-  isLocalBrowser ? LOCAL_API_URL : import.meta.env.VITE_API_URL || LOCAL_API_URL
+  isLocalBrowser ? LOCAL_API_URL : import.meta.env.VITE_API_URL || window.location.origin
 ).replace(/\/$/, '')
 
 const jsonHeaders = {
